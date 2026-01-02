@@ -9,8 +9,13 @@ Open visual stuido 2022 , On the Workloads tab, select the following:
         and have smaller memory footprints).
     
     •   The first time that you run Visual Studio, you will be prompted to configure your environment.
-        For Development Settings, choose Visual C#. 
+        For "Development Settings", choose "Visual C#". 
         For the color theme, I chose Blue, but you can choose whatever tickles your fancy.
     
     •   If you want to customize your keyboard shortcuts, 
         navigate to Tools | Options…, and then select the Keyboard section.
+
+
+
+
+

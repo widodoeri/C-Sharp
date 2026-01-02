@@ -1,0 +1,21 @@
+cmd command :
+
+1.  code --list-extensions
+    
+    List installed extensions.
+
+
+2.  code --install-extension <extension-id>
+    
+    Install the specified extension.
+
+
+3.  code --uninstall-extension <extension-id>
+    
+    Uninstall the specified Extension
+
+
+
+For example, to install the "C# Dev Kit" extension:
+
+    > code --install-extension ms-dotnettools.csdevkit

@@ -1,0 +1,46 @@
+
+    •   To install the "C# Dev Kit", navigate to "View | Extensions".
+        "C# Dev Kit" is one of the most popular extensions available.
+
+    •   "C# Dev Kit" also has dependencies on the ".NET Install Tool for Extension Authors"
+        and "IntelliCode for C# Dev Kit" extensions so they will be installed too
+        
+--------------------------------------------------------------------------------------------
+
+Installing other extensions
+
+1.  C# Dev Kit
+    ms-dotnettools.csdevkit
+
+2.  C#
+    ms-dotnettools.csharp
+
+3.  IntelliCode for C# Dev Kit
+    ms-dotnettools.vscodeintellicodecsharp
+
+    Provides AI-assisted development features for Python, TypeScript/JavaScript, C#, and Java developers
+
+
+4.  MSBuild project tools
+    tintoy.msbuild-project-tools
+
+    Provides IntelliSense for MSBuild project files, including autocomplete for <PackageReference> elements.
+
+
+5.  Polyglot Notebooks
+    ms-dotnettools.dotnet-interactivevscode
+
+    This extension adds support for using .NET and other languages in a notebook. 
+    It has a dependency on the Jupyter extension (ms-toolsai.jupyter), which itself has dependencies.
+
+
+6.  ilspy-vscode
+    icsharpcode.ilspy-vscode
+
+    Decompile MSIL assemblies – support for modern .NET, .NET Framework, .NET Core, and .NET Standard.
+
+
+7.  REST Client
+    humao.rest-client
+
+    Send an HTTP request and view the response directly in Visual Studio Code.
