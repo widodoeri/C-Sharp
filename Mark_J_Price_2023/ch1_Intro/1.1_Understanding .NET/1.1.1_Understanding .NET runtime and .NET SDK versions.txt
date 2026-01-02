@@ -1,0 +1,5 @@
+If you have not built a standalone app, then the .NET runtime is the minimum needed 
+to install so that an operating system can run a .NET application. 
+The .NET SDK includes the .NET runtime as well as the compilers and other tools needed 
+to build .NET code and apps.
+

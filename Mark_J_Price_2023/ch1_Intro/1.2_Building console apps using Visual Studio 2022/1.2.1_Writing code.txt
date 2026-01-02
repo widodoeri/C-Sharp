@@ -1,0 +1,12 @@
+1.  Start Visual Studio 2022. 
+    
+    In the "Get started" section, click "Create a new project".
+
+
+2.  on the "Search for templates" box (top), type "Console".
+    select "Console App" (making sure that you have chosen the cross-platform project template
+    not the one for .NET Framework which is Windows-only).
+
+    on "all language" box, choose C#.
+
+    then click Next.

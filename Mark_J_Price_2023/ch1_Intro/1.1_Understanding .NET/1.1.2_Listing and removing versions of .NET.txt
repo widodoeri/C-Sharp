@@ -1,0 +1,10 @@
+You can see which SDKs and runtimes are currently installed using the following commands:
+
+    > dotnet --list-sdks
+    
+    > dotnet --list-runtimes
+    
+    > dotnet --info
+
+
+On Windows, use the "Apps & features" section to remove .NET SDKs.
