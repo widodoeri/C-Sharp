@@ -1,0 +1,22 @@
+Two compiler-generated folders were created, named "obj" and "bin",
+as described in the following list:
+
+
+•   The "obj" folder contains one compiled "object" file for each source code file. 
+    These objects haven’t been linked together into a final executable yet.
+
+•   The "bin" folder contains the "binary" executable for the application or class library. 
+
+
+You do not need to look inside these folders or understand their files yet.
+
+Just be aware that the compiler needs to create temporary folders and files to do its work. 
+You could delete these folders and their files, and they will be automatically recreated 
+the next time you “build” or run the project. 
+
+Developers often delete these temporary folders and files to “clean” a project. 
+
+Visual Studio even has a command on the "Build" menu named "Clean Solution" 
+that deletes some of these temporary files for you.
+
+The equivalent command with Visual Studio Code is "dotnet clean".

@@ -3,10 +3,24 @@
     In the "Get started" section, click "Create a new project".
 
 
-2.  on the "Search for templates" box (top), type "Console".
-    select "Console App" (making sure that you have chosen the cross-platform project template
-    not the one for .NET Framework which is Windows-only).
+2.  on "all language" box, choose " C# ".
 
-    on "all language" box, choose C#.
+    then choose "console App".
+    (making sure that you have chosen the cross-platform project template not the one for .NET Framework 
+    which is Windows-only)
 
     then click Next.
+
+
+3.  Then configure your project name and folder. click Next
+
+4.  Then choose .Net Framework, choose LTS. 
+    Leave the check box labeled "Do not use top-level statements" cleared
+    
+    click Create Project
+
+
+5.  On "Solution Explorer" (right pane), click "Program.cs", which contain "hello World" project.
+
+    (If you cannot see "Solution Explorer", then navigate to "View | Solution Explorer".)
+

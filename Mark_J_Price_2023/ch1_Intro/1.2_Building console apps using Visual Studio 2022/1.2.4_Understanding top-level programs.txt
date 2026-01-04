@@ -1,0 +1,41 @@
+If you have seen older .NET projects before, then you might have expected more code, 
+even just to output a simple message. 
+
+This project has minimal statements because some of the required code is written for you 
+by the compiler when you target .NET 6 or later.
+
+If you had created the project with .NET SDK 5 or earlier, 
+or if you had selected the check box labeled Do not use top-level statements, 
+then the "Program.cs" file would have more statements, as shown in the following code:
+
+
+    using System;
+
+    namespace HelloCS
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Hello, World!");
+            }
+        }
+    }
+
+
+
+During compilation with .NET SDK 6 or later, all the boilerplate code to define the "Program" class 
+and its "Main" method is generated and wrapped around the statements you write.
+
+This uses a feature introduced in .NET 5 called "top-level programs", 
+but it was not until .NET 6 that Microsoft updated the project template for console apps 
+to use top-level statements by default. 
+
+Then in .NET 7 or later, Microsoft added options to use the older style if you prefer:
+
+
+•   If you are using Visual Studio 2022, select the check box labeled "Do not use top-level statements".
+
+•   If you are using the dotnet CLI at the command prompt, add a switch:
+
+        dotnet new console --use-program-main
