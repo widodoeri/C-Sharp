@@ -1,0 +1,17 @@
+
+In Visual Studio 2022:
+
+    1.   Navigate to "Tools | Options"
+
+    2.  In the "Options" dialog box, in the "Environment" section, select "Fonts and Colors", 
+        and then select the display items that you would like to customize. 
+        You can also search for the section instead of browsing for it.
+
+
+
+In Visual Studio Code:
+
+    1.  Navigate to "File | Preferences | Themes | Color Theme".
+        It is in the "Code" menu on macOS.
+
+

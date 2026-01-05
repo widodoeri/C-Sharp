@@ -1,0 +1,23 @@
+
+The C# vocabulary is made up of "keywords", "symbol characters", and "types".
+
+Some of the predefined, reserved keywords that you will see frequently include :
+
+    
+    using, namespace, class, static, int, string, double, bool, if, switch, break, 
+    while, do, for, foreach, this, and true.
+
+
+Some of the symbol characters that you will see include :
+
+    
+    ", ', +, -, *, /, %, @, and $.
+
+
+There are other contextual keywords that only have a special meaning in a specific context:
+
+    
+    and, or, not, record, and init
+    
+
+However, that still means that there are only about 100 actual C# keywords in the language.
