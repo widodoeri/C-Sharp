@@ -1,0 +1,32 @@
+
+Now, let’s discover what namespace the "Program" class has been defined within:
+
+
+1.  In "Program.cs", before the statement that throws an exception, 
+    add statements to get the name of the namespace of the "Program" class, 
+    and then write it to the console, 
+    
+    as shown in the following code:
+
+
+        string name = typeof(Program).Namespace ?? "None!";
+        Console.WriteLine($"Namespace: {name}");
+
+
+        " ?? " is the "null-coalescing operator". 
+        The first statement means, "If the namespace of Program is null, then return None!; 
+        otherwise, return the name."
+
+
+
+2.  In Visual Studio, navigate to "Debug | Start Without Debugging".
+
+3.  The output in the console window will show the result of running your application, 
+    including that the hidden Program class was defined without a namespace, 
+    as shown in the following output:
+
+
+        Namespace: None!
+
+
+4.  Press any key to close the console app window and return to Visual Studio.

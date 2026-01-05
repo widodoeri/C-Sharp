@@ -1,0 +1,21 @@
+Now let’s discover how the hidden code has been written:
+
+1.  In "Program.cs", after the statement that outputs the message, 
+    add a statement to throw a new exception, as shown in the following code:
+
+
+        throw new Exception();
+
+
+2.  In Visual Studio, navigate to "Debug | Start Without Debugging". 
+    (Do not start the project with debugging or the exception will be caught by the debugger!)
+
+
+3.  The output in the console window will show the result of running your application, 
+    including that a hidden "Program" class was defined by the compiler 
+    with a method named " <Main>$ " that has a parameter named args for passing in arguments.
+
+        picture 1.2.7_
+
+
+4.  Press any key to close the console app window and return to Visual Studio.
