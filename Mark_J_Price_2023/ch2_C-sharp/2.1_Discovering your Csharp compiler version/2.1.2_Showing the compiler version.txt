@@ -1,0 +1,8 @@
+use below code, paste anywhere in your_progrem.cs, 
+but don't save it because it will error.
+
+
+    #error version
+
+
+hover your mouse to "version", you will see compiler verison and language version.

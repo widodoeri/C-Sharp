@@ -1,0 +1,49 @@
+
+Developer tools like Visual Studio and the dotnet command-line interface assume 
+that you want to use the latest major version of a C# language compiler by default.
+
+to check current C# language compiler version, 
+on visual studio open "Tools | Command Line | Developer Command Prompt.
+
+    > csc /langversion:?
+    
+        10.0
+        11.0
+        12.0
+        13.0
+        14.0 (default)
+
+that's mean we use compiler version 14.0
+
+
+To use specific compiler version, then you will have to add a configuration element to your project file,
+use the following markup (e.g. use C# 12) :
+
+    <LangVersion>12.0</LangVersion>
+
+
+right click on "your_project_name" | click "Edit Project File".
+
+to use .NET 10 SDK and C# 12 compiler, see below code :
+
+
+    <Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12.0</LangVersion> 
+    </PropertyGroup>
+
+    </Project>
+
+
+
+
+Note :
+
+    The default .NET 10 SDK compiler is C# 14.
+
+    if you want to use default .NET 10 SDK compiler is C# 14, no need to add <LangVersion>

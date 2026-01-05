@@ -63,7 +63,7 @@ Let’s add a second project to our solution to explore how to work with multipl
     and then select "Set a Startup Projects…"
 
 
-8.  In the "Solution your_first_project Property" Pages dialog box, 
+8.  In the "Solution 'first_project' Property Pages" dialog box, 
     set "Startup Project" to "Current selection", and then click OK.
 
 
