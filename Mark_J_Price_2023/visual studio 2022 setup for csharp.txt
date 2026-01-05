@@ -17,5 +17,32 @@ Open visual stuido 2022 , On the Workloads tab, select the following:
 
 
 
+--------------------------------------------------------------------------------------------
+
+    additional visual studio setup
+
+1.  Getting definitions of types and their members
+
+    Disabling Source Link for the Go To Definition feature
+
+    -   Navigate to "Tools | Options".
+        In the search box, enter "navigation to source".
+        Click  C# | Advanced
+        Uncheck the "Enable navigation to Source Link and Embedded sources", 
+        then click OK
+
+
+2.  Configuring inline aka inlay hints
+
+    -   still in C# | Advanced dialog box, scroll down to "Inline Hints",
+        check :
+        -   Display all hints while pressing ALT + F1
+        -   Color hints
+        -   Display inline parameter name hints
+
+
+
+
+
 
 

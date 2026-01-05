@@ -12,10 +12,11 @@
     then click Next.
 
 
-3.  Then configure your project name and folder. click Next
+3.  Then configure your project name (e.g : "first_project") and folder (e.g: "D/folder"). 
+    click Next
 
-4.  Then choose .Net Framework, choose LTS. 
-    Leave the check box labeled "Do not use top-level statements" cleared
+4.  Then choose ".Net10.0 Long Term Support". 
+    Check box labeled "Do not use top-level statements"
     
     click Create Project
 

@@ -2,16 +2,16 @@
 
     Good Practice:
     
-    When you start a project in Visual Studio 2022, you can choose whether to attach a debugger or not. 
-    If you do not need to debug, then it is better not to attach one because attaching a debugger 
-    requires more resources and slows everything down. 
-    
-    Attaching a debugger also limits you to only starting one project. 
-    If you want to run more than one project, each with a debugger attached,
-    then you must start multiple instances of Visual Studio. 
-    
-    In the toolbar, click the "green outline triangle" button, to start without debugging.
-    if you need to debuging, use "green solid triangle" button.
+        When you start a project in Visual Studio 2022, you can choose whether to attach a debugger or not. 
+        If you do not need to debug, then it is better not to attach one because attaching a debugger 
+        requires more resources and slows everything down. 
+        
+        Attaching a debugger also limits you to only starting one project. 
+        If you want to run more than one project, each with a debugger attached,
+        then you must start multiple instances of Visual Studio. 
+        
+        In the toolbar, click the "green outline triangle" button, to start without debugging.
+        if you need to debuging, use "green solid triangle" button.
 
 
 

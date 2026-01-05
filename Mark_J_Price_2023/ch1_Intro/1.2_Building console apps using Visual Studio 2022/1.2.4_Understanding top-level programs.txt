@@ -11,9 +11,9 @@ then the "Program.cs" file would have more statements, as shown in the following
 
     using System;
 
-    namespace HelloCS
+    namespace first_project
     {
-        class Program
+        internal class Program
         {
             static void Main(string[] args)
             {
@@ -34,7 +34,7 @@ to use top-level statements by default.
 Then in .NET 7 or later, Microsoft added options to use the older style if you prefer:
 
 
-•   If you are using Visual Studio 2022, select the check box labeled "Do not use top-level statements".
+•   If you are using Visual Studio 2022, select the Check box labeled "Do not use top-level statements".
 
 •   If you are using the dotnet CLI at the command prompt, add a switch:
 

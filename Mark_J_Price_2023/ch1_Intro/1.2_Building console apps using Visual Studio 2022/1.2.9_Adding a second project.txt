@@ -59,8 +59,8 @@ Let’s add a second project to our solution to explore how to work with multipl
         Console.WriteLine("Namespace: {0}", typeof(Program).Namespace);
 
 
-7.  In "Solution Explorer", right-click the "your_first_project" solution, 
-    and then select "Configure Startup Projects…"
+7.  In "Solution Explorer", right-click the top folder "Solution 'first_project'(2 of 2 projects)", 
+    and then select "Set a Startup Projects…"
 
 
 8.  In the "Solution your_first_project Property" Pages dialog box, 

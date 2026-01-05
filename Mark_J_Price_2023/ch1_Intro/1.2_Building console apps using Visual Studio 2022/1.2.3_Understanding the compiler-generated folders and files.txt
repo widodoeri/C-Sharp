@@ -1,9 +1,10 @@
-Two compiler-generated folders were created, named "obj" and "bin",
-as described in the following list:
+
+Two compiler-generated folders were created, named "obj" and "bin":
 
 
 •   The "obj" folder contains one compiled "object" file for each source code file. 
     These objects haven’t been linked together into a final executable yet.
+
 
 •   The "bin" folder contains the "binary" executable for the application or class library. 
 
