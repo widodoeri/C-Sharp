@@ -1,0 +1,23 @@
+
+White space includes the space, tab, and newline characters. 
+
+You can use white space to format your code however you like because extra white space 
+has no effect on the compiler.
+
+The following four statements are all equivalent:
+
+    
+        int sum = 1 + 2; // Most developers would prefer this format.
+
+    
+        int
+        sum=1+
+        2; // One statement over three lines.
+
+
+        int       sum=    1    +2;int sum=1+2; // Two statements on one line.
+
+
+The only white space character required in the preceding statements is one between int and sum 
+to tell the compiler they are separate tokens. 
+Any single white space character, for example a space, tab, or newline would be acceptable.

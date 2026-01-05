@@ -1,0 +1,14 @@
+
+C# indicates a block of code with the use of curly brackets, " { } "
+
+
+Blocks start with a declaration to indicate what is being defined. 
+For example, a block can define the start and end of many language constructs, 
+including namespaces, classes, methods, or statements like "foreach".
+
+
+    • A "namespace" contains types like classes to group them together.
+
+    • A "class" contains the members of an object, including methods.
+
+    • A "method" contains statements that implement an action that an object can take.

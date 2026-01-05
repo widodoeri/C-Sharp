@@ -1,0 +1,20 @@
+
+C# indicates the end of a "statement" with a semicolon (;). 
+
+A statement can be composed of multiple "types", "variables", and "expressions"
+made up of "tokens". 
+
+Each token is separated by white space or some other recognizably different token, 
+like an operator, for example, = or +. 
+
+For example, in the following statement, "decimal" is a type, "totalPrice" is a variable, 
+and "subtotal + salesTax" is an expression:
+
+
+    decimal totalPrice = subtotal + salesTax;
+
+
+The expression is made up of an operand named "subtotal", an operator "+", 
+and another operand named "salesTax". 
+
+The order of operands and operators matters because the order affects the meaning and result.

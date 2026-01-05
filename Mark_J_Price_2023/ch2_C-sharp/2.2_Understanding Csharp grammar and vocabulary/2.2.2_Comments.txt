@@ -1,0 +1,18 @@
+single comment use      : //
+
+multiple comment use    : /* */
+
+Although /* */ is mostly used for multiline comments, 
+it is also useful for commenting in the middle of a statement, as shown in the following code:
+
+    
+    decimal totalPrice = subtotal /* for this item */ + salesTax;
+
+
+
+Visual Studio has commands to make it easier to add and remove comment characters :
+
+-   Navigate to Edit | Advanced | Comment Selection or Uncomment Selection
+
+-   or use shortcut :   CTRL + K + C to comment 
+                        CTRL + K + U to uncomment

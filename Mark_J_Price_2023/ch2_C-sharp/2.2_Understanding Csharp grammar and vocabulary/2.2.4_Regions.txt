@@ -1,0 +1,16 @@
+You can define your own labeled regions around any statements you want 
+and then most code editors will allow you to collapse and expand them 
+in the same way as blocks, as shown in the following code:
+
+
+    #region Three variables that store the number 2 million.
+    
+    int decimalNotation = 2_000_000;
+    int binaryNotation = 0b_0001_1110_1000_0100_1000_0000;
+    int hexadecimalNotation = 0x_001E_8480;
+    
+    #endregion
+
+
+In this way, regions can be treated as commented blocks that can be collapsed 
+to show a summary of what the block does. 
