@@ -35,10 +35,10 @@ Open visual stuido 2022 , On the Workloads tab, select the following:
 2.  Configuring inline aka inlay hints
 
     -   still in C# | Advanced dialog box, scroll down to "Inline Hints",
-        check :
-        -   Display all hints while pressing ALT + F1
-        -   Color hints
-        -   Display inline parameter name hints
+        
+        -   check "Display all hints while pressing ALT + F1"
+        -   check "Color hints"
+        -   check/uncheck "Display inline parameter name hints"
 
 
 
