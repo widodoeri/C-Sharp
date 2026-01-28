@@ -1,0 +1,8 @@
+
+"System" is a namespace, which is like an address for a type. 
+
+To refer to someone’s location exactly, you 
+might use Oxford.HighStreet.BobSmith, which tells us to look for a person named Bob Smith on the
+High Street in the city of Oxford.
+System.Console.WriteLine tells the compiler to look for a method named WriteLine in a type named 
+Console in a namespace named System. 
