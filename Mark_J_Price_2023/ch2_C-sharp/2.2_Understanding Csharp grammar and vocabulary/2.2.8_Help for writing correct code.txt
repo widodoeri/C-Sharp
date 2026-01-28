@@ -1,0 +1,8 @@
+Visual Studio 2022 and Visual Studio Code’s C# extension help you write C# code 
+by highlighting spelling mistakes.
+
+
+In Visual Studio Code, navigate to "View | Problems".
+
+in Visual Studio 2022, navigate to "View | Error List". 
+
